@@ -22,7 +22,7 @@ print('Reading: users')
 storeFile('users.csv')
 
 print('Reading: organizations')
-#storeFile('organizations.csv')
+storeFile('organizations.csv')
 
 print('Reading: projects')
 
