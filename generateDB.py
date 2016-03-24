@@ -3,18 +3,26 @@ import json
 import pandas as pd
 import sys, getopt, pprint
 from pymongo import MongoClient
+ 
+def storeFile(filename):
+	"This reads a file and generates a collection for it."
+	csvfile = open(filename, 'r')
+	splitString = filename.split( '.csv')
+	collection = db[splitString[0]]
+	data = pd.read_csv(csvfile)
+	data_json = json.loads(data.to_json(orient = 'records'))
+	collection.remove()
+	collection.insert(data_json)
+	return
 
-print('Storing users')
-csvfile = open('users.csv', 'r')
 client = MongoClient('localhost', 27017)
 db = client['collaboratornet']
-collection = db.Users
-data = pd.read_csv(csvfile)
-data_json = json.loads(data.to_json(orient = 'records'))
-collection.remove()
-collection.insert(data_json)
+
+print('Reading: users')
+storeFile('users.csv')
 
 print('Reading: organizations')
+#storeFile('organizations.csv')
 
 print('Reading: projects')
 
