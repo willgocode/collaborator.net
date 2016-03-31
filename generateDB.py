@@ -1,6 +1,3 @@
-import csv
-import json
-import pandas as pd
 import sys, getopt, pprint
 import helpers
 from pymongo import MongoClient 
@@ -21,9 +18,7 @@ def main(argv):
 	db = client['collaboratornet']	
 
 	try:
-		opts, args = getopt.getopt(argv, "h", ["users="])
-#, "organizations=", "projects=", 
-#						"skills=", "interests=", "distances="])
+		opts, args = getopt.getopt(argv, "h", ["users=", "organizations=", "projects=", "skills=", "interests=", "distances="])
 	except getopt.GetoptError:
 		sys.exit()
 	
@@ -34,18 +29,27 @@ def main(argv):
 
 	print('Reading: users')
 	usersFile = sys.argv[1]
-	helpers.storeFile(usersFile, db)
+	helpers.storeUsers(usersFile, db)
 
-#	print('Reading: organizations')
-#	helpers.updateOrganization('organizations.csv', db)
+	print('Reading: organizations')
+	organizationsFile = sys.argv[2]
+	helpers.updateOrganization(organizationsFile, db)
 
-#	print('Reading: projects')
+	print('Reading: projects')
+	projectFile = sys.argv[3]
+	helpers.updateProjects(projectFile, db)
 
-#	print('Reading: skills')
+	print('Reading: skills')
+	skillsFile = sys.argv[4]
+	helpers.updateSkills(skillsFile, db)
 
 #	print('Reading: interests')
+#	interestsFile = sys.argv[5]
+#	helpers.updateInterests(interestsFile, db)
 
-#	print('Reading: distances')
+	print('Reading: distances')
+	distancesFile = sys.argv[5]
+	helpers.storeDistances(distancesFile, db)
 
 if __name__ == "__main__":
 	main(sys.argv[1:])

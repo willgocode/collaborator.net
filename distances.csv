@@ -1,0 +1,15 @@
+Queens College,Hunter,7
+City College,Hunter,1
+Wendys,Hunter,8
+McDonalds,Hunter,17
+Burger King,Hunter,19
+City College,Queens College,7
+Wendys,Queens College,14
+McDonalds,Queens College,12
+Burger King,Queens College,4
+Wendys,City College,12
+McDonalds,City College,2
+Burger King,City College,9
+McDonalds,Wendys,6
+Burger King,Wendys,10
+Burger King,McDonalds,15

@@ -1,101 +1,101 @@
-user_id,organization
-1,Malesuada Integer Consulting
-2,Aliquam Iaculis Lacus Consulting
-3,Vehicula LLC
-4,Vestibulum Mauris Consulting
-5,Phasellus Libero PC
-6,Nullam Lobortis Industries
-7,Libero Limited
-8,Elit Corp.
-9,Nisi Incorporated
-10,Semper Pretium Neque LLC
-11,Pede Nunc Sed PC
-12,Ullamcorper Velit In Incorporated
-13,Lorem Ipsum Corp.
-14,Magna Suspendisse Tristique Associates
-15,Egestas Blandit Nam LLP
-16,Iaculis Aliquet Diam Corp.
-17,Risus Donec Corporation
-18,Ut Nec Ltd
-19,Sollicitudin A Ltd
-20,Sit Amet LLC
-21,Nonummy Ultricies LLP
-22,Volutpat Industries
-23,Sed Ltd
-24,Sed Tortor Integer Associates
-25,Imperdiet Consulting
-26,Ultrices Iaculis LLC
-27,Vestibulum Massa Rutrum LLC
-28,Rhoncus Donec Est Company
-29,Scelerisque Scelerisque Dui Institute
-30,Pellentesque Habitant Morbi Corporation
-31,Amet Corporation
-32,Vitae Semper Egestas Incorporated
-33,Tempus Eu LLC
-34,Ac Libero Ltd
-35,Volutpat Nunc Sit LLC
-36,Tempor Augue Ac Company
-37,Amet Diam Eu LLP
-38,Augue Scelerisque Mollis Incorporated
-39,Nonummy Fusce Fermentum Company
-40,Tellus Imperdiet Non Associates
-41,Cras Convallis Convallis Corporation
-42,Pellentesque Foundation
-43,Nisi Cum Company
-44,Iaculis Enim Sit LLC
-45,Pellentesque Sed Foundation
-46,Ornare Elit Elit Associates
-47,Sociis Natoque Penatibus Inc.
-48,Dui Lectus Foundation
-49,Mauris Sit Amet Associates
-50,Hendrerit A Ltd
-51,Ut Odio Vel Incorporated
-52,Fames Ac Turpis PC
-53,Convallis Est Vitae Industries
-54,Magnis Dis Parturient Foundation
-55,Interdum Sed Auctor Company
-56,Ac Feugiat Foundation
-57,Erat PC
-58,Dictum PC
-59,Diam Eu Dolor Company
-60,Amet LLC
-61,Elit Corporation
-62,Cras Institute
-63,Lorem Eget Corporation
-64,Nec Company
-65,Mus Proin Vel Limited
-66,Pharetra Inc.
-67,Quis Tristique Ac Corporation
-68,Magna Et Institute
-69,A Neque Nullam Consulting
-70,Donec Est Nunc LLP
-71,Ipsum Dolor Incorporated
-72,Vestibulum Neque Associates
-73,Quis Inc.
-74,Ante Blandit Viverra Institute
-75,Eu Arcu Morbi Limited
-76,Lorem Foundation
-77,In Scelerisque Scelerisque Limited
-78,Non Limited
-79,Neque Non Quam Institute
-80,Mi Institute
-81,Lorem Donec Consulting
-82,Aenean Corp.
-83,Curabitur Dictum Corporation
-84,Ac Fermentum Vel Ltd
-85,Mauris PC
-86,Et Pede Incorporated
-87,Nibh Enim Gravida Ltd
-88,Quam Dignissim Corporation
-89,Placerat Augue LLP
-90,Non Quam Corporation
-91,Nec Tellus Nunc Industries
-92,Donec Foundation
-93,Est Tempor PC
-94,Nec Company
-95,Tempor Arcu Vestibulum Incorporated
-96,Est Mauris Company
-97,Duis Mi Associates
-98,Morbi Neque Limited
-99,Mattis Ornare Lectus Foundation
-100,Nunc Limited
+user_id,organization,organization_type
+11111111,Burger King,Work
+11111112,Hunter,School
+11111113,Wendys,Work
+11111114,Hunter,School
+11111115,Queens College,Work
+11111116,Burger King,Work
+11111117,Wendys,Work
+11111118,City College,School
+11111119,Wendys,Work
+11111120,Hunter,School
+11111121,McDonalds,School
+11111122,City College,Work
+11111123,Queens College,Work
+11111124,Hunter,Work
+11111125,Wendys,School
+11111126,Hunter,Work
+11111127,Hunter,School
+11111128,Queens College,Work
+11111129,Burger King,School
+11111130,McDonalds,School
+11111131,McDonalds,School
+11111132,Queens College,Work
+11111133,City College,School
+11111134,Hunter,School
+11111135,Burger King,School
+11111136,McDonalds,School
+11111137,City College,Work
+11111138,McDonalds,Work
+11111139,McDonalds,School
+11111140,McDonalds,School
+11111141,Hunter,School
+11111142,City College,Work
+11111143,Wendys,School
+11111144,Queens College,Work
+11111145,City College,Work
+11111146,Queens College,School
+11111147,Wendys,School
+11111148,Wendys,School
+11111149,Burger King,School
+11111150,Wendys,School
+11111151,Hunter,School
+11111152,Hunter,School
+11111153,Hunter,Work
+11111154,Queens College,School
+11111155,City College,School
+11111156,Hunter,Work
+11111157,Hunter,Work
+11111158,Wendys,Work
+11111159,Burger King,School
+11111160,City College,School
+11111161,City College,Work
+11111162,City College,Work
+11111163,City College,School
+11111164,McDonalds,Work
+11111165,Hunter,School
+11111166,Wendys,School
+11111167,McDonalds,School
+11111168,Queens College,School
+11111169,Burger King,Work
+11111170,Burger King,School
+11111171,Queens College,Work
+11111172,Wendys,School
+11111173,McDonalds,Work
+11111174,Queens College,Work
+11111175,Hunter,School
+11111176,Hunter,Work
+11111177,Burger King,Work
+11111178,Burger King,Work
+11111179,City College,Work
+11111180,City College,School
+11111181,City College,Work
+11111182,Burger King,Work
+11111183,Queens College,School
+11111184,Wendys,Work
+11111185,City College,Work
+11111186,City College,School
+11111187,Burger King,School
+11111188,City College,Work
+11111189,Wendys,School
+11111190,Queens College,Work
+11111191,Hunter,Work
+11111192,Burger King,Work
+11111193,Hunter,School
+11111194,Burger King,Work
+11111195,Wendys,Work
+11111196,City College,Work
+11111197,Wendys,School
+11111198,Hunter,Work
+11111199,Queens College,School
+11111200,Burger King,School
+11111201,McDonalds,Work
+11111202,Burger King,School
+11111203,City College,Work
+11111204,Queens College,School
+11111205,Wendys,Work
+11111206,Burger King,School
+11111207,Burger King,Work
+11111208,City College,Work
+11111209,Wendys,School
+11111210,Wendys,Work
