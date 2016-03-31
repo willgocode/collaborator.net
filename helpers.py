@@ -81,7 +81,8 @@ def updateSkills(filename, db):
             {'user_id' : row["user_id"]},
             {
                 '$set':{
-                    "skill" : row["skill"]
+                    "skill" : row["skill"],
+					"skill_level" : row["skill_level"]
                 },
             }
         )
@@ -101,7 +102,8 @@ def updateInterests(filename, db):
             {'user_id' : row["user_id"]},
             {
                 '$set':{
-                    "interest" : row["interest"]
+                    "interest" : row["interest"],
+					"interest_level" : row["interest_level"]
                 },
             }
         )

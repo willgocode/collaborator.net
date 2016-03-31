@@ -43,12 +43,12 @@ def main(argv):
 	skillsFile = sys.argv[4]
 	helpers.updateSkills(skillsFile, db)
 
-#	print('Reading: interests')
-#	interestsFile = sys.argv[5]
-#	helpers.updateInterests(interestsFile, db)
+	print('Reading: interests')
+	interestsFile = sys.argv[5]
+	helpers.updateInterests(interestsFile, db)
 
 	print('Reading: distances')
-	distancesFile = sys.argv[5]
+	distancesFile = sys.argv[6]
 	helpers.storeDistances(distancesFile, db)
 
 if __name__ == "__main__":
