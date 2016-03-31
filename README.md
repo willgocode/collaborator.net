@@ -8,6 +8,6 @@ Structure of the program:
 
 To create the database run:
 
-"python generateDB.py <users>.csv <organizations>.csv <projects>.csv <skills>.csv <interests>.csv <distances>.csv"
+"python generateDB.py users.csv organizations.csv projects.csv skills.csv interests.csv distances.csv"
 
 
