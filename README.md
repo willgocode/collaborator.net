@@ -10,4 +10,10 @@ To create the database run:
 
 "python generateDB.py users.csv organizations.csv projects.csv skills.csv interests.csv distances.csv"
 
+To query the MongoDB run:
 
+"python mongoQuery.py -u "Bob Dylan" -o "Burger King""
+
+For more details on this script type in:
+
+"python mongoQuery.py -h"
