@@ -1,4 +1,4 @@
-# collborator.net
+# collbaborator.net
 Big data project to help find users with similar interests and skills within 10 miles using MongoDB and Neo4j.
 
 Structure of the program:
