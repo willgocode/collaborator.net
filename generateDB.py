@@ -41,11 +41,11 @@ def main(argv):
 
 	print('Reading: skills')
 	skillsFile = sys.argv[4]
-	helpers.updateSkills(skillsFile, db)
+	helpers.storeSkills(skillsFile, db)
 
 	print('Reading: interests')
 	interestsFile = sys.argv[5]
-	helpers.updateInterests(interestsFile, db)
+	helpers.storeInterests(interestsFile, db)
 
 	print('Reading: distances')
 	distancesFile = sys.argv[6]

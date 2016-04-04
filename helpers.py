@@ -68,44 +68,28 @@ def updateProjects(filename, db):
 
     return
 
-def updateSkills(filename, db):
-    "This updates a user with a new skills field."
-    csvfile = open(filename, 'r')
-    splitString = filename.split('.csv')
+def storeInterests(filename, db):
+	"This reads the interest.csv and generates a collection for it."
+	csvfile = open(filename, 'r')
+	splitString = filename.split( '.csv')
+	collection = db.Interests
+	data = pd.read_csv(csvfile)
+	data_json = json.loads(data.to_json(orient = 'records'))
+	collection.remove()
+	collection.insert(data_json)
 
-    data = pd.read_csv(csvfile)
-    data_json = json.loads(data.to_json(orient = 'records'))
+	return
 
-    for row in data_json:
-        write_result = db.Users.update(
-            {'user_id' : row["user_id"]},
-            {
-                '$set':{
-                    "skill" : row["skill"],
-					"skill_level" : row["skill_level"]
-                },
-            }
-        )
+def storeSkills(filename, db):
+	"This reads the skills.csv and generates a collection for it."
+	csvfile = open(filename, 'r')
+	splitString = filename.split( '.csv')
+	collection = db.Skills
+	data = pd.read_csv(csvfile)
+	data_json = json.loads(data.to_json(orient = 'records'))
+	collection.remove()
+	collection.insert(data_json)
 
-    return
+	return
 
-def updateInterests(filename, db):
-    "This updates a user with a new interests field."
-    csvfile = open(filename, 'r')
-    splitString = filename.split('.csv')
 
-    data = pd.read_csv(csvfile)
-    data_json = json.loads(data.to_json(orient = 'records'))
-
-    for row in data_json:
-        write_result = db.Users.update(
-            {'user_id' : row["user_id"]},
-            {
-                '$set':{
-                    "interest" : row["interest"],
-					"interest_level" : row["interest_level"]
-                },
-            }
-        )
-
-    return
